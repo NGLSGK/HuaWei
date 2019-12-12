@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+//广告样式    
+.advertising{
+    display: none;
+    width: 100%;
+    min-width: 1200px;
+    background: url();
+    .advertisingBox{
+        height: 90px;
+        margin: 0 auto;
+        position: relative;
+        cursor: pointer;
+        img{
+            width: 1920px;
+            height: 90px;
+            position: absolute;
+            left: 50%;
+            margin-left: -960px;
+        }
+        .advertisingTop{
+            position: absolute;
+            width: 1200px;
+            height: 90px;
+            margin: 0 auto;
+            // background: yellow;
+            z-index: 1;
+            left: 50%;
+            margin-left: -600px;
+            .shoutdown{
+                display: block;
+                width: 24px;
+                height: 24px;
+                border-radius: 50%;
+                line-height: 24px;
+                text-align: center;
+                font-size: 16px;
+                color: white;
+                background: rgba(0,0,0, 0.3);
+                float: right;
+                margin: 10px 10px 0 0;
+            }
+        }
+    }
+}
+
